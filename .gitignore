@@ -6,3 +6,7 @@ vendor/gems/*
 .sass-cache/*
 db/*.db
 .*.sw*
+.idea/**/*
+Gemfile.lock
+PranceCloudSite.iml
+Semantic-UI-1.12.2/**/*
