@@ -1,0 +1,9 @@
+---
+:orm: sequel
+:test: cucumber
+:mock: none
+:script: jquery
+:renderer: slim
+:stylesheet: compass
+:namespace: Prancecloud
+:migration_format: number
