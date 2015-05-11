@@ -1,0 +1,83 @@
+/*
+Error: File to import not found or unreadable: blueprint/reset.
+       Load paths:
+         Compass::SpriteImporter
+         /opt/prancecloud/public/stylesheets/sass
+         /opt/prancecloud/app/stylesheets
+         /usr/local/rvm/gems/ruby-2.1.5/gems/compass-core-1.0.3/stylesheets
+        on line 2 of /opt/prancecloud/app/stylesheets/application.scss
+
+1: // This import applies a global reset to any page that imports this stylesheet.
+2: @import "blueprint/reset";
+3: 
+4: // To configure blueprint, edit the partials/base.sass file.
+5: @import "partials/base";
+6: 
+7: // Import all the default blueprint modules so that we can access their mixins.
+
+Backtrace:
+/opt/prancecloud/app/stylesheets/application.scss:2
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/import_node.rb:45:in `import'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/import_node.rb:28:in `imported_file'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/import_node.rb:37:in `css_import?'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/tree/root_node.rb:20:in `render'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/engine.rb:268:in `render'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/plugin.rb:82:in `update_stylesheets'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/plugin.rb:54:in `check_for_updates'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sass-3.4.13/lib/sass/plugin/rack.rb:51:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/padrino-core-0.12.5/lib/padrino-core/reloader/rack.rb:22:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/padrino-core-0.12.5/lib/padrino-core/logger.rb:420:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sinatra-1.4.6/lib/sinatra/show_exceptions.rb:21:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/usr/local/rvm/gems/ruby-2.1.5/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sinatra-1.4.6/lib/sinatra/base.rb:2021:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `block in call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sinatra-1.4.6/lib/sinatra/base.rb:1795:in `synchronize'
+/usr/local/rvm/gems/ruby-2.1.5/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/padrino-core-0.12.5/lib/padrino-core/router.rb:84:in `block in call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/padrino-core-0.12.5/lib/padrino-core/router.rb:75:in `each'
+/usr/local/rvm/gems/ruby-2.1.5/gems/padrino-core-0.12.5/lib/padrino-core/router.rb:75:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/thin-1.6.3/lib/thin/connection.rb:86:in `block in pre_process'
+/usr/local/rvm/gems/ruby-2.1.5/gems/thin-1.6.3/lib/thin/connection.rb:84:in `catch'
+/usr/local/rvm/gems/ruby-2.1.5/gems/thin-1.6.3/lib/thin/connection.rb:84:in `pre_process'
+/usr/local/rvm/gems/ruby-2.1.5/gems/eventmachine-1.0.7/lib/eventmachine.rb:1054:in `call'
+/usr/local/rvm/gems/ruby-2.1.5/gems/eventmachine-1.0.7/lib/eventmachine.rb:1054:in `block in spawn_threadpool'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: blueprint/reset.\A        Load paths:\A          Compass::SpriteImporter\A          /opt/prancecloud/public/stylesheets/sass\A          /opt/prancecloud/app/stylesheets\A          /usr/local/rvm/gems/ruby-2.1.5/gems/compass-core-1.0.3/stylesheets\A         on line 2 of /opt/prancecloud/app/stylesheets/application.scss\A \A 1: // This import applies a global reset to any page that imports this stylesheet.\A 2: @import \"blueprint/reset\";\A 3: \A 4: // To configure blueprint, edit the partials/base.sass file.\A 5: @import \"partials/base\";\A 6: \A 7: // Import all the default blueprint modules so that we can access their mixins."; }
