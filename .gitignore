@@ -1,7 +1,6 @@
 .DS_Store
 log/**/*
 tmp/**/*
-Semantic-UI-1.12.2/**/*
 vendor/gems/*
 !vendor/gems/cache/
 .sass-cache/*
@@ -9,3 +8,6 @@ db/*.db
 .*.sw*
 .idea/
 PranceCloudSite.iml
+.idea/**/*
+Gemfile.lock
+Semantic-UI-1.12.2/**/*
