@@ -5,19 +5,32 @@ module Prancecloud
     register CompassInitializer
 
     get '/' do
+      Android = /android/i =~ requre.user_agent
+      IPad = /iPad/i =~ requre.user_agent
+      MacOSX = /Mac OS X/i =~ requre.user_agent
+      Windows = /Windows/i =~ requre.user_agent
+      #
+      Phone = Android || IPad
+      PC = Windows || MacOSX
+      case
+        when Phone
+          redirect PranceCloudURL + '/ph'
+        when PC
+          redirect PranceCloudURL + '/pc'
+      end
       #request.host
-      ' 
-    <html>
-    <script type="text/javascript" name="baidu-tc-cerfication" data-appid="5880305" src="http://apps.bdimg.com/cloudaapi/lightapp.js"></script>
-    <body>
-    prancecloud.com
-    </body>
-    </html>
-      '
+      #   '
+      # <html>
+      # <script type="text/javascript" name="baidu-tc-cerfication" data-appid="5880305" src="http://apps.bdimg.com/cloudaapi/lightapp.js"></script>
+      # <body>
+      # prancecloud.com
+      # </body>
+      # </html>
+      #   '
     end
 
     get '/phone' do
-      MultiJson.dump(request)
+      MultiJson.dump(request.user_agent)
     end
 
     enable :sessions
