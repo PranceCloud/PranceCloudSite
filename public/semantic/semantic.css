@@ -519,7 +519,7 @@ body {
 }
 
 html {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 body {
@@ -527,8 +527,8 @@ body {
   padding: 0px;
   min-width: 320px;
   background: #f7f7f7;
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 13px;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 14px;
   line-height: 1.33;
   color: rgba(0, 0, 0, 0.8);
   font-smoothing: antialiased;
@@ -543,7 +543,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   line-height: 1.33em;
   margin: -webkit-calc(2rem -  0.165em ) 0em 1rem;
   margin: calc(2rem -  0.165em ) 0em 1rem;
@@ -690,7 +690,7 @@ input::selection {
   vertical-align: baseline;
   background-color: #e0e0e0;
   color: rgba(0, 0, 0, 0.6);
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em 0.25em 0em 0em;
   padding: 0.78571em 1.5em 0.78571em;
   text-transform: none;
@@ -1303,19 +1303,19 @@ input::selection {
 .ui.mini.buttons .button,
 .ui.mini.buttons .or,
 .ui.mini.button {
-  font-size: 0.69230769rem;
+  font-size: 0.71428571rem;
 }
 
 .ui.tiny.buttons .button,
 .ui.tiny.buttons .or,
 .ui.tiny.button {
-  font-size: 0.84615385rem;
+  font-size: 0.85714286rem;
 }
 
 .ui.small.buttons .button,
 .ui.small.buttons .or,
 .ui.small.button {
-  font-size: 0.92307692rem;
+  font-size: 0.92857143rem;
 }
 
 .ui.buttons .button,
@@ -1327,25 +1327,25 @@ input::selection {
 .ui.large.buttons .button,
 .ui.large.buttons .or,
 .ui.large.button {
-  font-size: 1.15384615rem;
+  font-size: 1.14285714rem;
 }
 
 .ui.big.buttons .button,
 .ui.big.buttons .or,
 .ui.big.button {
-  font-size: 1.30769231rem;
+  font-size: 1.28571429rem;
 }
 
 .ui.huge.buttons .button,
 .ui.huge.buttons .or,
 .ui.huge.button {
-  font-size: 1.46153846rem;
+  font-size: 1.42857143rem;
 }
 
 .ui.massive.buttons .button,
 .ui.massive.buttons .or,
 .ui.massive.button {
-  font-size: 1.69230769rem;
+  font-size: 1.71428571rem;
 }
 
 /*--------------
@@ -4916,7 +4916,7 @@ i.flag.zimbabwe:before {
   margin: -webkit-calc(2rem -  0.165em ) 0em 1rem;
   margin: calc(2rem -  0.165em ) 0em 1rem;
   padding: 0em 0em;
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 1.33em;
   text-transform: none;
@@ -8969,7 +8969,7 @@ img.ui.bordered.image {
 .ui.mini.image {
   width: 20px;
   height: auto;
-  font-size: 0.69230769rem;
+  font-size: 0.71428571rem;
 }
 
 .ui.tiny.images .image,
@@ -8978,7 +8978,7 @@ img.ui.bordered.image {
 .ui.tiny.image {
   width: 80px;
   height: auto;
-  font-size: 0.84615385rem;
+  font-size: 0.85714286rem;
 }
 
 .ui.small.images .image,
@@ -8987,7 +8987,7 @@ img.ui.bordered.image {
 .ui.small.image {
   width: 150px;
   height: auto;
-  font-size: 0.92307692rem;
+  font-size: 0.92857143rem;
 }
 
 .ui.medium.images .image,
@@ -9005,7 +9005,7 @@ img.ui.bordered.image {
 .ui.large.image {
   width: 450px;
   height: auto;
-  font-size: 1.15384615rem;
+  font-size: 1.14285714rem;
 }
 
 .ui.big.images .image,
@@ -9014,7 +9014,7 @@ img.ui.bordered.image {
 .ui.big.image {
   width: 600px;
   height: auto;
-  font-size: 1.30769231rem;
+  font-size: 1.28571429rem;
 }
 
 .ui.huge.images .image,
@@ -9023,7 +9023,7 @@ img.ui.bordered.image {
 .ui.huge.image {
   width: 800px;
   height: auto;
-  font-size: 1.46153846rem;
+  font-size: 1.42857143rem;
 }
 
 .ui.massive.images .image,
@@ -9032,7 +9032,7 @@ img.ui.bordered.image {
 .ui.massive.image {
   width: 960px;
   height: auto;
-  font-size: 1.69230769rem;
+  font-size: 1.71428571rem;
 }
 
 /*******************************
@@ -9097,7 +9097,7 @@ img.ui.bordered.image {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
   line-height: 1.2142em;
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   padding: 0.67861em 1em;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -9516,11 +9516,11 @@ img.ui.bordered.image {
 ---------------------*/
 
 .ui.mini.input {
-  font-size: 0.69230769em;
+  font-size: 0.71428571em;
 }
 
 .ui.small.input {
-  font-size: 0.92307692em;
+  font-size: 0.92857143em;
 }
 
 .ui.input {
@@ -9528,19 +9528,19 @@ img.ui.bordered.image {
 }
 
 .ui.large.input {
-  font-size: 1.15384615em;
+  font-size: 1.14285714em;
 }
 
 .ui.big.input {
-  font-size: 1.30769231em;
+  font-size: 1.28571429em;
 }
 
 .ui.huge.input {
-  font-size: 1.46153846em;
+  font-size: 1.42857143em;
 }
 
 .ui.massive.input {
-  font-size: 1.69230769em;
+  font-size: 1.71428571em;
 }
 
 /*******************************
@@ -10825,7 +10825,7 @@ ol.ui.list ol,
 .ui.list > .item .header {
   display: block;
   margin: 0em;
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.8);
 }
@@ -11518,15 +11518,15 @@ ol.ui.horizontal.list li:before,
 --------------------*/
 
 .ui.mini.list {
-  font-size: 0.69230769em;
+  font-size: 0.71428571em;
 }
 
 .ui.tiny.list {
-  font-size: 0.84615385em;
+  font-size: 0.85714286em;
 }
 
 .ui.small.list {
-  font-size: 0.92307692em;
+  font-size: 0.92857143em;
 }
 
 .ui.list {
@@ -11534,34 +11534,34 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.large.list {
-  font-size: 1.15384615em;
+  font-size: 1.14285714em;
 }
 
 .ui.big.list {
-  font-size: 1.30769231em;
+  font-size: 1.28571429em;
 }
 
 .ui.huge.list {
-  font-size: 1.46153846em;
+  font-size: 1.42857143em;
 }
 
 .ui.massive.list {
-  font-size: 1.69230769em;
+  font-size: 1.71428571em;
 }
 
 .ui.mini.horizontal.list .list > .item,
 .ui.mini.horizontal.list > .item {
-  font-size: 0.69230769rem;
+  font-size: 0.71428571rem;
 }
 
 .ui.tiny.horizontal.list .list > .item,
 .ui.tiny.horizontal.list > .item {
-  font-size: 0.84615385rem;
+  font-size: 0.85714286rem;
 }
 
 .ui.small.horizontal.list .list > .item,
 .ui.small.horizontal.list > .item {
-  font-size: 0.92307692rem;
+  font-size: 0.92857143rem;
 }
 
 .ui.horizontal.list .list > .item,
@@ -11571,22 +11571,22 @@ ol.ui.horizontal.list li:before,
 
 .ui.large.horizontal.list .list > .item,
 .ui.large.horizontal.list > .item {
-  font-size: 1.15384615rem;
+  font-size: 1.14285714rem;
 }
 
 .ui.big.horizontal.list .list > .item,
 .ui.big.horizontal.list > .item {
-  font-size: 1.30769231rem;
+  font-size: 1.28571429rem;
 }
 
 .ui.huge.horizontal.list .list > .item,
 .ui.huge.horizontal.list > .item {
-  font-size: 1.46153846rem;
+  font-size: 1.42857143rem;
 }
 
 .ui.massive.horizontal.list .list > .item,
 .ui.massive.horizontal.list > .item {
-  font-size: 1.69230769rem;
+  font-size: 1.71428571rem;
 }
 
 /*******************************
@@ -13134,7 +13134,7 @@ ol.ui.horizontal.list li:before,
 /* Title */
 
 .ui.steps .step .title {
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1.0714em;
   font-weight: bold;
 }
@@ -13483,7 +13483,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.small.step,
 .ui.small.steps .step {
-  font-size: 0.92307692rem;
+  font-size: 0.92857143rem;
 }
 
 .ui.step,
@@ -13493,7 +13493,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.large.step,
 .ui.large.steps .step {
-  font-size: 1.15384615rem;
+  font-size: 1.14285714rem;
 }
 
 /*******************************
@@ -13572,7 +13572,7 @@ ol.ui.horizontal.list li:before,
 /* Icon Divider */
 
 .ui.breadcrumb .icon.divider {
-  font-size: 0.84615385em;
+  font-size: 0.85714286em;
   vertical-align: baseline;
 }
 
@@ -13756,7 +13756,7 @@ ol.ui.horizontal.list li:before,
 .ui.form input[type="time"],
 .ui.form input[type="text"],
 .ui.form input[type="url"] {
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em;
   outline: none;
   -webkit-appearance: none;
@@ -18570,7 +18570,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.message .header {
   display: block;
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin: 0em 0em 0.5rem 0em;
 }
@@ -18975,7 +18975,7 @@ ol.ui.horizontal.list li:before,
 ---------------*/
 
 .ui.small.message {
-  font-size: 0.92307692em;
+  font-size: 0.92857143em;
 }
 
 .ui.message {
@@ -18983,15 +18983,15 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.large.message {
-  font-size: 1.15384615em;
+  font-size: 1.14285714em;
 }
 
 .ui.huge.message {
-  font-size: 1.46153846em;
+  font-size: 1.42857143em;
 }
 
 .ui.massive.message {
-  font-size: 1.69230769em;
+  font-size: 1.71428571em;
 }
 
 /*******************************
@@ -20613,7 +20613,7 @@ ol.ui.horizontal.list li:before,
 .ui.card > .content > .header {
   display: block;
   margin: 0em;
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   color: rgba(0, 0, 0, 0.85);
 }
 
@@ -22158,7 +22158,7 @@ a.ui.card:hover,
 .ui.items > .item > .content > .header {
   display: block;
   margin: -0.165em 0em 0em;
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.85);
 }
@@ -22590,7 +22590,7 @@ a.ui.card:hover,
 
 .ui.statistics .statistic > .value,
 .ui.statistic > .value {
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 4rem;
   font-weight: normal;
   line-height: 1em;
@@ -22605,7 +22605,7 @@ a.ui.card:hover,
 
 .ui.statistics .statistic > .label,
 .ui.statistic > .label {
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.4);
@@ -22992,7 +22992,7 @@ a.ui.card:hover,
 
 .ui.accordion .title:not(.ui) {
   padding: 0.5em 0em;
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.8);
 }
@@ -24052,7 +24052,7 @@ body.dimmed.dimmable > :not(.dimmer) {
   border-top: none;
   line-height: 1em;
   color: rgba(0, 0, 0, 0.8);
-  padding: 0.69230769em 1.15384615em !important;
+  padding: 0.71428571em 1.14285714em !important;
   font-size: 1rem;
   text-transform: none;
   font-weight: normal;
@@ -24095,7 +24095,7 @@ body.dimmed.dimmable > :not(.dimmer) {
 
 .ui.dropdown .menu > .header {
   margin: 1rem 0rem 0.75rem;
-  padding: 0em 1.15384615em;
+  padding: 0em 1.14285714em;
   color: rgba(0, 0, 0, 0.85);
   font-size: 0.7857rem;
   font-weight: bold;
@@ -24109,7 +24109,7 @@ body.dimmed.dimmable > :not(.dimmer) {
 }
 
 .ui.dropdown .menu > .input {
-  margin: 0.75rem 1.15384615em;
+  margin: 0.75rem 1.14285714em;
   min-width: 200px;
 }
 
@@ -24355,25 +24355,25 @@ select.ui.dropdown {
 
 @media only screen and (max-width: 767px) {
   .ui.selection.dropdown .menu {
-    max-height: 7.36804615em;
+    max-height: 7.49991429em;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .ui.selection.dropdown .menu {
-    max-height: 9.82406154em;
+    max-height: 9.99988571em;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .ui.selection.dropdown .menu {
-    max-height: 14.73609231em;
+    max-height: 14.99982857em;
   }
 }
 
 @media only screen and (min-width: 1920px) {
   .ui.selection.dropdown .menu {
-    max-height: 19.64812308em;
+    max-height: 19.99977143em;
   }
 }
 
@@ -24381,7 +24381,7 @@ select.ui.dropdown {
 
 .ui.selection.dropdown .menu > .item {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
-  padding: 0.69230769em 1.15384615em !important;
+  padding: 0.71428571em 1.14285714em !important;
   white-space: normal;
   word-wrap: normal;
 }
@@ -24526,25 +24526,25 @@ select.ui.dropdown {
 
 @media only screen and (max-width: 767px) {
   .ui.search.dropdown .menu {
-    max-height: 7.36804615em;
+    max-height: 7.49991429em;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .ui.search.dropdown .menu {
-    max-height: 9.82406154em;
+    max-height: 9.99988571em;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .ui.search.dropdown .menu {
-    max-height: 14.73609231em;
+    max-height: 14.99982857em;
   }
 }
 
 @media only screen and (min-width: 1920px) {
   .ui.search.dropdown .menu {
-    max-height: 19.64812308em;
+    max-height: 19.99977143em;
   }
 }
 
@@ -25220,7 +25220,7 @@ select.ui.dropdown {
 
 .ui.modal > .header {
   display: block;
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05)) #ffffff;
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.05)) #ffffff;
   margin: 0em;
@@ -25792,7 +25792,7 @@ a.ui.nag {
 
 .ui.popup > .header {
   padding: 0em;
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1.125em;
   line-height: 1.2;
   font-weight: bold;
@@ -26532,7 +26532,7 @@ a.ui.nag {
 ---------------*/
 
 .ui.tiny.progress {
-  font-size: 0.84615385rem;
+  font-size: 0.85714286rem;
 }
 
 .ui.tiny.progress .bar {
@@ -26540,7 +26540,7 @@ a.ui.nag {
 }
 
 .ui.small.progress {
-  font-size: 0.92307692rem;
+  font-size: 0.92857143rem;
 }
 
 .ui.small.progress .bar {
@@ -26556,7 +26556,7 @@ a.ui.nag {
 }
 
 .ui.large.progress {
-  font-size: 1.15384615rem;
+  font-size: 1.14285714rem;
 }
 
 .ui.large.progress .bar {
@@ -26564,7 +26564,7 @@ a.ui.nag {
 }
 
 .ui.big.progress {
-  font-size: 1.30769231rem;
+  font-size: 1.28571429rem;
 }
 
 .ui.big.progress .bar {
@@ -26959,7 +26959,7 @@ a.ui.nag {
 }
 
 .ui.search > .results .result .title {
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.85);
@@ -26985,7 +26985,7 @@ a.ui.nag {
 }
 
 .ui.search > .results > .message .header {
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1.1428em;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.8);
@@ -27135,7 +27135,7 @@ a.ui.nag {
 .ui.category.search > .results .category > .name {
   width: 100px;
   background: #f0f0f0;
-  font-family: 'YaHei Consolas Hybrid', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Microsoft YaHei', 'Tahoma', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1em;
   float: 1em;
   float: left;
