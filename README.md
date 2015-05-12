@@ -1,8 +1,6 @@
 # PranceCloud Site
-===
 
 PranceCloud.com Web Site Codes.
-
 
 ## Requirements
 
@@ -27,7 +25,7 @@ cd PranceCloudSite
 padrino s 
 ```
 
-## Chinese 
+# Chinese 
 
 以上英文很简单。这里再说一句。
 
