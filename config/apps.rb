@@ -33,10 +33,10 @@ Padrino.configure_apps do
 end
 
 PranceCloudURL = 'www.prancecloud.com'
-
-Padrino.mount('Prancecloud::App', :app_file => Padrino.root('app/app.rb')).to('/')
-#
 Padrino.mount('Prancecloud::Weixin', :app_file => Padrino.root('app_exts/weixin/app.rb')).to('/wx')
 Padrino.mount('Prancecloud::Phone', :app_file => Padrino.root('app_exts/phone/app.rb')).to('/ph')
 Padrino.mount('Prancecloud::PC', :app_file => Padrino.root('app_exts/pc/app.rb')).to('/pc')
+Padrino.mount('Prancecloud::Admin', :app_file => Padrino.root('admin/app.rb')).to('/admin')
+Padrino.mount('Prancecloud::App', :app_file => Padrino.root('app/app.rb')).to('/')
+#
 

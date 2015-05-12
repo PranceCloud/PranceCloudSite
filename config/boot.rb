@@ -35,6 +35,8 @@ Bundler.require(:default, RACK_ENV)
 # Add your before (RE)load hooks here
 #
 Padrino.before_load do
+  # Padrino.set_load_paths(Padrino.root('pc'))
+  # Padrino::PC.dependency_paths << Padrino.root('pc/**/*.rb')
 end
 
 ##

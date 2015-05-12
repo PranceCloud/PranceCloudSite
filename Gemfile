@@ -12,6 +12,7 @@ gem 'multi_json'
 
 # Project requirements
 gem 'rake'
+gem 'bcrypt'
 
 # Component requirements
 gem 'compass'

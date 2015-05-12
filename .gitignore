@@ -11,3 +11,4 @@ PranceCloudSite.iml
 .idea/**/*
 Gemfile.lock
 Semantic-UI-1.12.2/**/*
+admin/

@@ -2,21 +2,29 @@ module Prancecloud
   class App < Padrino::Application
     register Padrino::Mailer
     register Padrino::Helpers
+    register Padrino::Admin::AccessControl
+
     register CompassInitializer
 
-    get '/' do
-      Android = /android/i =~ requre.user_agent
-      IPad = /iPad/i =~ requre.user_agent
-      MacOSX = /Mac OS X/i =~ requre.user_agent
-      Windows = /Windows/i =~ requre.user_agent
+    attr_accessor :client_is_android, :client_is_iPad, :client_is_macOSX, :client_is_windows
+    attr_accessor :client_is_phone, :client_is_pc
+
+    before do
+      @client_is_android = has_user_agent_by(request, 'android')
+      @client_is_iPad = has_user_agent_by(request, 'iPad')
+      @client_is_macOSX = has_user_agent_by(request, 'Mac OS X')
+      @client_is_windows = has_user_agent_by(request, 'Windows')
       #
-      Phone = Android || IPad
-      PC = Windows || MacOSX
+      @client_is_phone = @client_is_android || @client_is_iPad
+      @client_is_pc = @client_is_windows || @client_is_macOSX
+    end
+
+    get '/' do
       case
-        when Phone
-          redirect PranceCloudURL + '/ph'
-        when PC
-          redirect PranceCloudURL + '/pc'
+        when @client_is_phone
+          redirect '/ph'
+        else
+          redirect '/pc'
       end
       #request.host
       #   '

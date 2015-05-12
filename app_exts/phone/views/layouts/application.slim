@@ -1,0 +1,11 @@
+doctype 5
+html lang='en'
+  head
+    meta content='text/html; charset=utf-8' http-equiv='Content-Type'
+    meta name='viewport' content='width=device-width,initial-scale=1'
+    title = @title.present? ? "#{@title} | PranceCloud Phone" : "PranceCloud"
+    = favicon_tag 'favicon.ico'
+    script type="text/javascript" name="baidu-tc-cerfication" data-appid="5880305" src="http://apps.bdimg.com/cloudaapi/lightapp.js"
+
+  body
+    = yield

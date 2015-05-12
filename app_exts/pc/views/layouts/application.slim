@@ -1,0 +1,13 @@
+doctype 5
+html lang='en'
+  head
+    meta content='text/html; charset=utf-8' http-equiv='Content-Type'
+    meta name='viewport' content='width=device-width,initial-scale=1'
+    title = @title.present? ? "#{@title} | PranceCloud Site" : "PranceCloud"
+    = favicon_tag '/favicon.ico'
+    script type="text/javascript" src="/javascripts/jquery-1.11.3.min.js"
+    script type="text/javascript" src="/semantic/semantic.min.js"
+    link href='/semantic/semantic.min.css' rel='stylesheet'
+
+  body
+    = yield
