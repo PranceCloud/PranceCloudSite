@@ -4,7 +4,7 @@ module Prancecloud
     register Padrino::Helpers
     register Padrino::Admin::AccessControl
 
-    register CompassInitializer
+    # register CompassInitializer
 
     attr_accessor :client_is_android, :client_is_iPad, :client_is_macOSX, :client_is_windows
     attr_accessor :client_is_phone, :client_is_pc
